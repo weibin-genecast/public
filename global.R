@@ -1,6 +1,24 @@
 #################################### HEADER ####################################
 # Create app on 2021/5/27 by Bin Wei
 ##################################### CODE #####################################
+install.packages(shiny)
+install.packages(shinydashboard)
+install.packages(shinydashboardPlus)
+install.packages(plotly)
+install.packages(ggplot2)
+install.packages(tidyverse)
+install.packages(DT)
+install.packages(networkD3)
+
+library(shiny)
+library(shinydashboard)
+library(shinydashboardPlus) # for more shiny setting
+library(plotly)
+library(ggplot2)
+library(tidyverse) # for pipe
+library(DT) # for Table
+library(networkD3) # for sankey plot
+
 ### Packages loading -----------------------------------------------------------
 suppressPackageStartupMessages({
   library(shiny)
